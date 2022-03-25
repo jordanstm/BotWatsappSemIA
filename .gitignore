@@ -3,3 +3,4 @@ C:\BOTS\ZapBot\src\db
 MercadoPago.txt
 npm install --save mercadopago
 .env
+conecction.js
