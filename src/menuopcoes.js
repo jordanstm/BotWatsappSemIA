@@ -3,7 +3,7 @@ const menu={
         nome:"Vendas"
     },
     2:{
-        nome:"Cadastro Cliente"
+        nome:"Consulta Produtos"
     }
 }
 exports.menu = menu;

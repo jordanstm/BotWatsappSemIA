@@ -25,6 +25,32 @@ exports.step=
             descricao:"Encerramento",
             obj: require('../src/stages/5')
         },
+        6:{
+            descricao:"Pix",
+            obj: require('../src/stages/6')
+        },
+        7:{
+            descricao:"FInalizacao",
+            obj: require('../src/stages/7')
+        },
+        10:{
+            descricao:"Orcamento",
+            obj: require('../src/stages/10')
+        },
+        20:{
+            descricao:"OrcamentoPesquisa",
+            obj: require('../src/stages/20')
+        }
+        ,
+        30:{
+            descricao:"OrcamentoConfirmacao",
+            obj: require('../src/stages/30')
+        }
+        ,
+        40:{
+            descricao:"OrcamentoInserção",
+            obj: require('../src/stages/40')
+        }
     }
 
 

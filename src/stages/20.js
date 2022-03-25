@@ -9,7 +9,7 @@ exports.execute=(user,texto,NomeCliente)=>{
     if(isNaN(texto)==false){
         if(texto==2){
             
-            banco.db[user].stage=2;
+            banco.db[user].stage=10;
             return['Ok.Me informe então uma descrição para que eu verifique em nossa base de dados.'];
         }
         else
@@ -19,7 +19,7 @@ exports.execute=(user,texto,NomeCliente)=>{
             }
             else{
                 if(texto==1){
-                    banco.db[user].stage=4;
+                    banco.db[user].stage=30;
                    return [Re];
                
                 }else{
